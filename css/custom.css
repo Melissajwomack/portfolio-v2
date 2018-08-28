@@ -1,0 +1,87 @@
+/* 
+font-family: 'Raleway', sans-serif;
+font-family: 'Josefin Sans', sans-serif; 
+color: rgb(170, 130, 27);
+*/
+
+body {
+    background-color: black;
+}
+
+.nav {
+    background-color: black;
+    color: rgb(170, 130, 27)!important;
+}
+
+.navlinks {
+    background-color: black;
+    color: rgb(170, 130, 27)!important;
+}
+
+.navlinks:hover {
+    background-color: #fff!important;
+}
+
+.sidenav {
+  background-color: black;
+}
+
+.slider-adjustment{
+    position: fixed;
+     top: 56px;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     overflow: auto;
+   background-color:cyan ;
+   
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: rgb(170, 130, 27);
+}
+
+.icons {
+    color: rgb(170, 130, 27);
+    margin: 0.5em;
+}
+
+.icons:hover {
+    color: #fff
+}
+
+h1, h2, h4 {
+    color: rgb(170, 130, 27);
+    font-family: 'Raleway', sans-serif!important;
+}
+
+p, h5, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@media only screen and (max-width: 790px) {
+    .slider .slides li .caption {
+        top: 0%!important;
+    }
+
+    .icons {
+        margin: 0.2em;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1, h2, h4 {
+       font-size: 3em;
+    }
+    
+    p, h5, h3 {
+        font-size: 1.5em;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .icons {
+        margin: 0.1em;
+    }
+}
