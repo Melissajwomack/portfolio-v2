@@ -67,6 +67,28 @@ p, h5, h3 {
     height: 300px;
 }
 
+.portfolioLinks {
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.activator, .ex {
+    color: rgb(170, 130, 27);
+}
+
+.port, body {
+    background-color: black;
+}
+
+.card {
+    border-radius: 0.75em;
+}
+
+.card-image {
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+}
+
 @media only screen and (max-width: 790px) {
     .slider .slides li .caption {
         top: 0%!important;
