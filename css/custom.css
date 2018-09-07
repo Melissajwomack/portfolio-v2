@@ -51,7 +51,7 @@ color: rgb(170, 130, 27);
     font-family: 'Raleway', sans-serif!important;
 }
 
-h1, h2, .port-header {
+h1, h2 {
     color: rgb(170, 130, 27)!important;
     font-family: 'Josefin Sans', sans-serif!important;
 }
@@ -113,7 +113,7 @@ p, h5, h4, h3 {
        font-size: 2.5em;
     }
     
-    p, h5, h3 {
+    h5, h3 {
         font-size: 2em;
     }
 
