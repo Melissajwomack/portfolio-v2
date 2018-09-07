@@ -37,6 +37,8 @@
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="active"><a href="index.html" class="navlinks">Home</a></li>
+                    <li class="active"><a class="navlinks aboutme">About</a></li>
+                    <li class="active"><a class="navlinks contactme">Contact</a></li>
                     <li class="active"><a href="portfolio.html" class="navlinks">Portfolio</a></li>
                     <li class="active"><a href="Resume.pdf" target="_blank" class="navlinks">Resume</a></li>
                 </ul>
@@ -44,6 +46,8 @@
         </nav>
         <ul class="sidenav" id="mobile-demo">
             <li class="active"><a href="index.html" class="navlinks">Home</a></li>
+            <li class="active"><a class="navlinks aboutme">About</a></li>
+            <li class="active"><a class="navlinks contactme">Contact</a></li>
             <li class="active"><a href="portfolio.html" class="navlinks">Portfolio</a></li>
             <li class="active"><a href="Resume.pdf" target="_blank" class="navlinks">Resume</a></li>
         </ul>
@@ -54,7 +58,7 @@
             <div class="row slider-adjustment">
                 <div class="slider fullscreen">
                     <ul class="slides">
-                        <li>
+                        <li class="name">
                             <img src="images/andrej-lisakov-551627-unsplash.jpg">
                             <!-- random image -->
                             <div class="caption center-align">
@@ -64,7 +68,7 @@
                                 <br>
                             </div>
                         </li>
-                        <li>
+                        <li class="about">
                             <img src="images/christopher-jolly-132935-unsplash.jpg">
                             <!-- random image -->
                             <div class="caption center-align">
@@ -78,7 +82,7 @@
                                 </p>
                             </div>
                         </li>
-                        <li>
+                        <li class="contact">
                             <img src="images/tom-barrett-346220-unsplash.jpg">
                             <!-- random image -->
                             <div class="caption center-align">
@@ -112,6 +116,8 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- HammerJS -->
+    <script src="https://hammerjs.github.io/dist/hammer.js"></script>
     <!-- Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <!-- Custom JS -->
