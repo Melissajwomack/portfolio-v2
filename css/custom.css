@@ -8,28 +8,29 @@ color: rgb(170, 130, 27);
     background-color: black;
 }
 
-.nav {
+.nav, .navlinks {
     color: rgb(170, 130, 27)!important;
-}
-
-.navlinks {
-    color: rgb(170, 130, 27)!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navlinks:hover {
     background-color: #fff!important;
 }
 
-
 .slider-adjustment{
     position: fixed;
-     top: 56px;
+     top: 65px;
      left: 0;
      bottom: 0;
      right: 0;
      overflow: auto;
    background-color:cyan ;
    
+}
+
+.para, .slider-adjustment {
+    border-top: 1px solid rgb(170, 130, 27);
+    border-bottom: 1px solid rgb(170, 130, 27);
 }
 
 .slider .indicators .indicator-item.active {
@@ -45,12 +46,17 @@ color: rgb(170, 130, 27);
     color: #fff
 }
 
-h1, h2, h4 {
+.name-about {
     color: rgb(170, 130, 27);
     font-family: 'Raleway', sans-serif!important;
 }
 
-p, h5, h3 {
+h1, h2, .port-header {
+    color: rgb(170, 130, 27)!important;
+    font-family: 'Josefin Sans', sans-serif!important;
+}
+
+p, h5, h4, h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -76,11 +82,11 @@ p, h5, h3 {
 }
 
 .port-row {
-    margin: 4em 0 4em 0;
+    margin: 3em 0 3em 0;
 }
 
 .card {
-    margin: 2em;
+    margin: 1.5em;
 }
 
 .card-image {
@@ -104,11 +110,11 @@ p, h5, h3 {
 
 @media only screen and (max-width: 480px) {
     h1, h2, h4 {
-       font-size: 3em;
+       font-size: 2.5em;
     }
     
     p, h5, h3 {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
 }
