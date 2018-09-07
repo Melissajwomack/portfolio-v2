@@ -98,6 +98,10 @@ p, h5, h4, h3 {
     height: 50%;
 }
 
+.phone {
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 790px) {
     .slider .slides li .caption {
         top: 0%!important;
