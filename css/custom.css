@@ -4,17 +4,15 @@ font-family: 'Josefin Sans', sans-serif;
 color: rgb(170, 130, 27);
 */
 
-.home {
+.home, body, .port, .nav, .navlinks, .sidenav {
     background-color: black;
 }
 
 .nav {
-    background-color: black;
     color: rgb(170, 130, 27)!important;
 }
 
 .navlinks {
-    background-color: black;
     color: rgb(170, 130, 27)!important;
 }
 
@@ -22,9 +20,6 @@ color: rgb(170, 130, 27);
     background-color: #fff!important;
 }
 
-.sidenav {
-  background-color: black;
-}
 
 .slider-adjustment{
     position: fixed;
@@ -63,30 +58,38 @@ p, h5, h3 {
     width: 100%;
 }
 
+.port {
+    width: 90%;
+}
+
 .parallax-container {
     height: 300px;
 }
 
-.portfolioLinks {
+.portfolioLinks, .card-title {
     color: black;
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.activator, .ex {
+.material-icons, .ex, .portfolioLinks:hover {
     color: rgb(170, 130, 27);
 }
 
-.port, body {
-    background-color: black;
+.port-row {
+    margin: 4em 0 4em 0;
 }
 
 .card {
-    border-radius: 0.75em;
+    margin: 2em;
 }
 
 .card-image {
-    border-top-left-radius: 0.75em;
-    border-top-right-radius: 0.75em;
+    width: 100%;
+}
+
+.card-content {
+    border-top: 1px solid rgb(170, 130, 27);
+    height: 50%;
 }
 
 @media only screen and (max-width: 790px) {
