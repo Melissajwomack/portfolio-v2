@@ -17,6 +17,10 @@ body, .port, .nav, .navlinks, .sidenav {
     background-color: #fff!important;
 }
 
+.contactme, .aboutme {
+    cursor: pointer;
+}
+
 .slider-adjustment{
     position: fixed;
      top: 65px;
