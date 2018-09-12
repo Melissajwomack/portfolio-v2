@@ -1,61 +1,61 @@
 M.AutoInit();
 
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.slider');
+document.addEventListener("DOMContentLoaded", function () {
+    var elems = document.querySelectorAll(".slider");
     var instance = M.Slider.init(elems, {
         indicators: false,
-        interval: 4000
+        interval: 20000
 
     });
 
-    var elems = document.querySelectorAll('.sidenav');
+    var elems = document.querySelectorAll(".sidenav");
     var instances = M.Sidenav.init(elems, {
         draggable: true
     });
 
-    $('.parallax').parallax();
+    $(".parallax").parallax();
 
     function pause() {
-        $('.slider').slider('pause');
+        $(".slider").slider("pause");
     }
 
     function goToContact() {
-        var index = $(".slider").find('.active').index();
+        var index = $(".slider").find(".active").index();
         var name = $(".name").index();
         var about = $(".about").index();
         var contact = $(".contact").index();
 
         switch (index) {
             case name:
-                $('.slider').slider('prev');
+                $(".slider").slider("prev");
                 pause();
                 break;
             case about:
-                $('.slider').slider('next');
+                $(".slider").slider("next");
                 pause();
                 break;
             case contact:
-                $('.slider').slider('pause');
+                $(".slider").slider("pause");
                 break;
         };
     };
 
     function goToAbout() {
-        var index = $(".slider").find('.active').index();
+        var index = $(".slider").find(".active").index();
         var name = $(".name").index();
         var about = $(".about").index();
         var contact = $(".contact").index();
 
         switch (index) {
             case name:
-                $('.slider').slider('next');
+                $(".slider").slider("next");
                 pause();
                 break;
             case about:
-                $('.slider').slider('pause');
+                $(".slider").slider("pause");
                 break;
             case contact:
-                $('.slider').slider('prev');
+                $(".slider").slider("prev");
                 pause();
                 break;
         };
@@ -63,13 +63,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
     $(".aboutme").on("click", function () {
         goToAbout();
-        $('.sidenav').sidenav('close');
+        $(".sidenav").sidenav("close");
     });
 
     $(".contactme").on("click", function () {
         goToContact();
-        $('.sidenav').sidenav('close');
+        $(".sidenav").sidenav("close");
     });
+
+    $(".resume").on("click", function() {
+        $(".sidenav").sidenav("close");
+    })
 });
 
 

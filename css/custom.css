@@ -23,12 +23,13 @@ body, .port, .nav, .navlinks, .sidenav {
 
 .slider-adjustment{
     position: fixed;
-     top: 65px;
-     left: 0;
-     bottom: 50px;
-     right: 0;
-     overflow: auto;
-   background-color:cyan ;
+    top: 65px;
+    left: 0;
+    bottom: 50px;
+    right: 0;
+    overflow: auto;
+    background-color:cyan ;
+    margin-bottom: 0;
    
 }
 
@@ -124,6 +125,7 @@ main {
 
 .footer-copyright {
     color: rgb(170, 130, 27)!important;
+    background-color: black!important;
 }
 
 @media only screen and (max-width: 790px) {
@@ -133,6 +135,10 @@ main {
 
     .icons {
         margin: 0.2em;
+    }
+
+    h1 {
+        margin: 0.3em 0 0 0;
     }
 }
 
@@ -151,4 +157,5 @@ main {
     .icons {
         margin: 0.05em;
     }
+
 }
