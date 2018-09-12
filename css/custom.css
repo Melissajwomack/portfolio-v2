@@ -167,14 +167,14 @@ p, h5, h4, h3 {
 
 @media only screen and (max-width: 815px) and (orientation: landscape) {
     h1 {
-        margin: 1em 0 0 0;
+        margin: 0.5em 0 0 0;
     }
     h1, h2 {
         font-size: 2em;
      }
      
      h5, h3, h4, p {
-        font-size: 1.5em!important;
+        font-size: 1em!important;
      }
 
      .icons {
