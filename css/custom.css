@@ -4,6 +4,11 @@ font-family: 'Josefin Sans', sans-serif;
 color: rgb(170, 130, 27);
 */
 
+ /* ...or body.dialogShowing */
+body.noScroll {
+    overflow: hidden;
+}
+
 body, .port, .nav, .navlinks, .sidenav {
     background-color: black;
 }
@@ -138,7 +143,7 @@ main {
     }
 
     h1 {
-        margin: 0.3em 0 0 0;
+        margin: 0.75em 0 0 0;
     }
 }
 
