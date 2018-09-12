@@ -4,7 +4,7 @@ font-family: 'Josefin Sans', sans-serif;
 color: rgb(170, 130, 27);
 */
 body {
-    background-color: hotpink;
+    background-color: black;
 }
 .port, .nav, .navlinks, .sidenav {
     background-color: black;
@@ -109,16 +109,6 @@ p, h5, h4, h3 {
     color: #fff!important;
 }
 
-/* body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
-} */
-
 .page-footer {
     color: rgb(170, 130, 27);
     background-color: black;
@@ -163,5 +153,21 @@ main {
     .icons {
         margin: 0.05em;
     }
+}
 
+@media only screen and (max-width: 815px) and (orientation: landscape) {
+    h1 {
+        margin: 0.25em 0 0 0;
+    }
+    h1, h2 {
+        font-size: 1.5em;
+     }
+     
+     h5, h3, h4, p {
+         font-size: 1em!important;
+     }
+
+     .icons {
+        margin: 0;
+    }
 }
