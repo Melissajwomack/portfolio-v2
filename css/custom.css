@@ -112,6 +112,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
 }
+
 main {
     flex: 1 0 auto;
 }
@@ -124,7 +125,7 @@ main {
 
 .footer-copyright {
     color: rgb(170, 130, 27)!important;
-    background-color: black!important;
+    background-color: hotpink!important;
 }
 
 @media only screen and (max-width: 790px) {
