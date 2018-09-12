@@ -4,11 +4,6 @@ font-family: 'Josefin Sans', sans-serif;
 color: rgb(170, 130, 27);
 */
 
- /* ...or body.dialogShowing */
-body {
-    overflow: hidden!important;
-}
-
 body, .port, .nav, .navlinks, .sidenav {
     background-color: black;
 }
@@ -28,12 +23,11 @@ body, .port, .nav, .navlinks, .sidenav {
 
 .slider-adjustment{
     position: fixed;
-    top: 65px;
+    top: 56px;
     left: 0;
     bottom: 50px;
     right: 0;
-    overflow: auto;
-    background-color:cyan ;
+    overflow: hidden;
     margin-bottom: 0;
    
 }
