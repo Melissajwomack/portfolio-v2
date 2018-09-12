@@ -3,8 +3,10 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Josefin Sans', sans-serif; 
 color: rgb(170, 130, 27);
 */
-
-body, .port, .nav, .navlinks, .sidenav {
+body {
+    background-color: hotpink;
+}
+.port, .nav, .navlinks, .sidenav {
     background-color: black;
 }
 
@@ -109,7 +111,7 @@ p, h5, h4, h3 {
 
 body {
     display: flex;
-    min-height: 100vh;
+    min-height: 50vh;
     flex-direction: column;
 }
 
@@ -119,13 +121,13 @@ main {
 
 .page-footer {
     color: rgb(170, 130, 27);
-    background-color: hotpink;
+    background-color: black;
     padding-top: 0px;
 }
 
 .footer-copyright {
     color: rgb(170, 130, 27)!important;
-    background-color: hotpink!important;
+    background-color: black!important;
 }
 
 @media only screen and (max-width: 790px) {
