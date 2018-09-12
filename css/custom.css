@@ -22,7 +22,7 @@ body, .port, .nav, .navlinks, .sidenav {
 }
 
 .slider-adjustment{
-    position: fixed;
+    position: absolute;
     top: 56px;
     left: 0;
     bottom: 50px;
