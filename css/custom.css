@@ -5,8 +5,8 @@ color: rgb(170, 130, 27);
 */
 
  /* ...or body.dialogShowing */
-body.noScroll {
-    overflow: hidden;
+body {
+    overflow: hidden!important;
 }
 
 body, .port, .nav, .navlinks, .sidenav {
