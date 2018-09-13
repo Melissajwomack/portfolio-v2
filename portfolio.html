@@ -32,11 +32,14 @@
     <!-- Header -->
     <header id="top">
         <nav>
+            <!-- Large screen top nav bar -->
             <div class="nav-wrapper nav">
                 <a href="#home" class="brand-logo"></a>
                 <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li class="active"><a href="index.html" class="navlinks">Go Back to Home</a></li>
+                    <!-- Commented links for other pages, need server to make this happen -->
+
                     <!-- <li class="active"><a class="navlinks aboutmePort">About</a></li>
                     <li class="active"><a class="navlinks contactmePort">Contact</a></li>
                     <li class="active"><a href="portfolio.html" class="navlinks">Portfolio</a></li>
@@ -44,15 +47,21 @@
                 </ul>
             </div>
         </nav>
+        <!-- Side bar for small screen -->
         <ul class="sidenav" id="mobile-demo">
             <li class="active"><a href="index.html" class="navlinks">Go Back to Home</a></li>
+            <!-- Commented links for other pages, need server to make this happen -->
+
             <!-- <li class="active"><a href="index.html" class="navlinks aboutme">About</a></li>
             <li href="index.html" class="active"><a class="navlinks contactme">Contact</a></li>
             <li class="active"><a href="portfolio.html" class="navlinks">Portfolio</a></li>
             <li class="active"><a href="Resume.pdf" target="_blank" class="navlinks">Resume</a></li> -->
         </ul>
     </header>
+
+    <!-- Main Body -->
     <main>
+        <!-- First parallax containter -->
         <div class="parallax-container valign-wrapper para">
             <div class="section no-pad-bot">
                 <div class="container">
@@ -64,9 +73,12 @@
             <div class="parallax"><img src="images/jeremy-bishop-332192-unsplash.jpg" alt="Unsplashed background img 2" style="opacity: 1; transform: translate3d(-50%, 188.443px, 0px);"></div>
         </div>
 
+        <!-- Main container for portfolio cards -->
         <div class="container port">
             <div class="section">
                 <div class="row port-row">
+
+                    <!-- Card 1 -->
                     <div class="col s12 m6 l4">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -91,6 +103,7 @@
                         </div>
                     </div>
 
+                    <!-- Card 2 -->
                     <div class="col s12 m6 l4">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -120,6 +133,7 @@
                         </div>
                     </div>
 
+                    <!-- Card 3 -->
                     <div class="col s12 m6 l4">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -141,6 +155,7 @@
                         </div>
                     </div>
 
+                    <!-- Card 4 -->
                     <div class="col s12 m6 l4">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -167,6 +182,7 @@
                         </div>
                     </div>
 
+                    <!-- Card 5 -->
                     <div class="col s12 m6 l4">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -191,6 +207,7 @@
                         </div>
                     </div>
 
+                    <!-- Card 6 -->
                     <div class="col s12 m6 l4">
                         <div class="card small">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -215,6 +232,7 @@
             </div>
         </div>
 
+        <!-- Second parallax container -->
         <div class="parallax-container valign-wrapper para">
             <div class="section no-pad-bot">
                 <div class="container">
@@ -226,10 +244,9 @@
             <div class="parallax"><img src="images/jeremy-bishop-332192-unsplash.jpg" alt="Unsplashed background img 2"
                     style="opacity: 1; transform: translate3d(-50%, 188.443px, 0px);"></div>
         </div>
-
-        <div class="sidenav-overlay"></div>
-        <div class="drag-target"></div>
     </main>
+
+    <!-- Footer -->
     <footer class="page-footer">
         <div class="footer-copyright">
             <div class="container center">
@@ -238,12 +255,12 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- HammerJS -->
     <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
     <!-- Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
     <!-- Custom JS -->
     <script src="javascript/index.js"></script>
 </body>

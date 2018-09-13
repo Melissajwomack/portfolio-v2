@@ -31,6 +31,7 @@
 <body>
     <!-- Header -->
     <header id="top">
+        <!-- Large screen top nav bar -->
         <nav>
             <div class="nav-wrapper nav">
                 <a href="#home" class="brand-logo"></a>
@@ -44,6 +45,7 @@
                 </ul>
             </div>
         </nav>
+        <!-- Side bar for small screen -->
         <ul class="sidenav" id="mobile-demo">
             <li class="active"><a href="index.html" class="navlinks">Home</a></li>
             <li class="active"><a class="navlinks aboutme">About</a></li>
@@ -52,15 +54,19 @@
             <li class="active"><a href="Resume.pdf" target="_blank" class="navlinks resume">Resume</a></li>
         </ul>
     </header>
+
+    <!-- Main Body -->
     <main>
         <div class="container">
             <!-- Content -->
+            <!-- Row with adjustments for nav bar and footer to fit slider -->
             <div class="row slider-adjustment">
+                <!-- Full screen slider -->
                 <div class="slider fullscreen">
                     <ul class="slides">
+                        <!-- Home slide -->
                         <li class="name">
                             <img src="images/andrej-lisakov-551627-unsplash.jpg">
-                            <!-- random image -->
                             <div class="caption center-align">
                                 <h2 class="name-about">M&nbsp;E&nbsp;L&nbsp;I&nbsp;S&nbsp;S&nbsp;A
                                     W&nbsp;O&nbsp;M&nbsp;A&nbsp;C&nbsp;K</h2>
@@ -68,9 +74,9 @@
                                 <br>
                             </div>
                         </li>
+                        <!-- About me slide -->
                         <li class="about">
                             <img src="images/christopher-jolly-132935-unsplash.jpg">
-                            <!-- random image -->
                             <div class="caption center-align">
                                 <h1>About Me</h1>
                                 <p class="light grey-text text-lighten-3 flow-text">
@@ -82,9 +88,9 @@
                                 </p>
                             </div>
                         </li>
+                        <!-- Contact me slide -->
                         <li class="contact">
                             <img src="images/tom-barrett-346220-unsplash.jpg">
-                            <!-- random image -->
                             <div class="caption center-align">
                                 <h1>Contact Me</h1>
                                 <br>
@@ -95,6 +101,8 @@
                                         class="fab fa-linkedin fa-3x icons"></i></a>
                                 <a href="https://github.com/Melissajwomack" target="_blank" class="icon-links"><i class="fab fa-github-square fa-3x icons"></i></a>
                                 <a href="mailto:melissa.j.womack@gmail.com" class="icon-links"><i class="fas fa-envelope-square fa-3x icons"></i></a>
+                                <!-- Commented for possible later use -->
+                                <!-- Link to facebook and instagram accounts -->
                                 <!-- <a href="https://www.instagram.com/melissa.jo.w/" target="_blank" class="icon-links"><i
                                         class="fab fa-instagram fa-3x icons"></i></a>
                                 <a href="https://www.facebook.com/m.j.womack" target="_blank" class="icon-links"><i
@@ -106,6 +114,8 @@
             </div>
         </div>
     </main>
+
+    <!-- Footer -->
     <footer class="page-footer footer-index">
         <div class="footer-copyright">
             <div class="container center">
@@ -114,12 +124,12 @@
         </div>
     </footer>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- HammerJS -->
     <script src="https://hammerjs.github.io/dist/hammer.js"></script>
+
     <!-- Materialize -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    
     <!-- Custom JS -->
     <script src="javascript/index.js"></script>
 </body>

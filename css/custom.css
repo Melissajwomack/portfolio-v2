@@ -1,8 +1,10 @@
 /* 
+Font and color for reference:
 font-family: 'Raleway', sans-serif;
 font-family: 'Josefin Sans', sans-serif; 
 color: rgb(170, 130, 27);
 */
+
 body {
     background-color: black;
 }
@@ -134,6 +136,7 @@ p, h5, h4, h3 {
     background-color: black!important;
 }
 
+/* Media Queries */
 @media only screen and (max-width: 790px) {
     .slider .slides li .caption {
         top: 0%!important;
