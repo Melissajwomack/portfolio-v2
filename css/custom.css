@@ -168,7 +168,7 @@ p, h5, h4, h3 {
     }
 }
 
-@media only screen and (max-height: 580px) {
+@media only screen and (max-height: 500px) {
     .aboutMeText {
         font-size: 0.9rem!important;
     }
