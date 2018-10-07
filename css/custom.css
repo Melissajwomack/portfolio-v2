@@ -168,6 +168,12 @@ p, h5, h4, h3 {
     }
 }
 
+@media only screen and (max-height: 580px) {
+    .aboutMeText {
+        font-size: 0.9rem!important;
+    }
+}
+
 @media only screen and (max-width: 825px) and (orientation: landscape) {
     h1 {
         margin: 0.5em 0 0 0;
