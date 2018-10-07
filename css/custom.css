@@ -180,7 +180,7 @@ p, h5, h4, h3 {
     }
 }
 
-@media only screen and (max-width: 825px) and (orientation: landscape) {
+@media only screen and (max-height: 320px) {
     h1 {
         margin: 0.5em 0 0 0;
     }
