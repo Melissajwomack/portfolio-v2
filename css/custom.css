@@ -45,9 +45,13 @@ body {
     background-color: rgb(170, 130, 27);
 }
 
+.slider .slides li .caption {
+    top: 5%!important;
+}
+
 .icons {
     color: rgb(170, 130, 27);
-    margin: 0.5em;
+    margin: 0.25em;
 }
 
 .icons:hover {
@@ -65,7 +69,7 @@ h1, h2 {
 }
 
 p, h5, h4, h3 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif!important;
 }
 
 .parallax-container .section {
