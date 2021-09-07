@@ -4,4 +4,4 @@ This is a personal portfolio featuring a home page, about me page, contact me pa
 ## Link to site: https://melissajwomack.github.io/portfolio-v2/
 
 ## Preview:
-<img src="images/snippet.png">
+<img src="images/landing.png">
