@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var instance = M.Slider.init(elems, {
         //slider options
         indicators: false,
+        duration: 300,
         interval: 10000
-
     });
 
     //Initialize sidenav
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 pause();
                 break;
             case contact:
-                $(".slider").slider("pause");
+                pause();
                 break;
         };
 
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 pause();
                 break;
             case about:
-                $(".slider").slider("pause");
+                pause();
                 break;
             case contact:
                 $(".slider").slider("prev");
@@ -77,6 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.title = "Melissa Womack | About";
     };
 
+    //If user is being redirected from portfolio page, check parameter and display the appropriate slide
     if(isredirect){
         switch (isredirect) {
             case "about":
@@ -109,10 +110,12 @@ document.addEventListener("DOMContentLoaded", function () {
         $(".sidenav").sidenav("close");
     })
 
+    //Relocate to index.html page with a paramter so that the slider will display the about page
     $(".aboutmePort").on("click", function () {
         window.location.replace("index.html?about");
     });
 
+    //Relocate to index.html page with a paramter so that the slider will display the contact page
     $(".contactmePort").on("click", function () {
         window.location.replace("index.html?contact");
     });
