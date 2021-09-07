@@ -6,8 +6,9 @@ color: rgb(170, 130, 27);
 */
 
 :root{
-    --main-bg-color: black;
-    --secondary-bg-color: white;
+    --main-bg-color: rgb(217, 220, 219);
+    --secondary-bg-color: rgb(168, 181, 161);
+    --font-color: rgb(130, 131, 131);
     --accent-color: rgb(170, 130, 27);
     --font-one: 'Josefin Sans', sans-serif;
     --font-two: 'Raleway', sans-serif;
@@ -77,6 +78,7 @@ h1, h2 {
 }
 
 p, h5, h4, h3 {
+    color: var(--font-color)!important;
     font-family: var(--font-one)!important;
 }
 
@@ -93,7 +95,7 @@ p, h5, h4, h3 {
 }
 
 .portfolioLinks, .card-title {
-    color: var(--main-bg-color);
+    color: var(--font-color);
     font-family: var(--font-one);
 }
 
@@ -120,7 +122,6 @@ p, h5, h4, h3 {
 
 .phone {
     text-decoration: none;
-    color: var(--secondary-bg-color)!important;
 }
 
 .page-footer {
@@ -148,6 +149,10 @@ p, h5, h4, h3 {
     background-color: var(--main-bg-color)!important;
 }
 
+.mobile-bg {
+    display: none;
+}
+
 /* Media Queries */
 @media only screen and (max-width: 790px) {
     .slider .slides li .caption {
@@ -170,6 +175,14 @@ p, h5, h4, h3 {
     
     h5, h3, h4 {
         font-size: 2em;
+    }
+
+    .mobile-bg {
+        display: block;
+    }
+
+    .main-bg {
+        display: none;
     }
 
 }
