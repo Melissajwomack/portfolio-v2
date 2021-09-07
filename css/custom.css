@@ -7,7 +7,7 @@ color: rgb(170, 130, 27);
 
 :root{
     --main-bg-color: rgb(217, 220, 219);
-    --secondary-bg-color: rgb(180, 187, 184);
+    --hover-color: rgb(173, 187, 170);
     --font-color: rgb(130, 131, 131);
     --accent-color: rgb(170, 130, 27);
     --font-one: 'Josefin Sans', sans-serif;
@@ -17,6 +17,7 @@ color: rgb(170, 130, 27);
 body {
     background-color: var(--main-bg-color);
 }
+
 .port, .nav, .navlinks, .sidenav {
     background-color: var(--main-bg-color);
 }
@@ -27,7 +28,8 @@ body {
 }
 
 .navlinks:hover {
-    background-color: var(--secondary-bg-color)!important;
+    color: var(--hover-color)!important;
+    background-color: var(--main-bg-color)!important;
 }
 
 .contactme, .aboutme {
@@ -36,13 +38,12 @@ body {
 
 .slider-adjustment{
     position: absolute;
-    top: 56px;
+    top: 64px;
     left: 0;
     bottom: 50px;
     right: 0;
     overflow: hidden;
     margin-bottom: 0;
-   
 }
 
 .para, .slider-adjustment {
@@ -64,20 +65,26 @@ body {
 }
 
 .icons:hover {
-    color: var(--secondary-bg-color);
+    color: var(--hover-color);
 }
 
 .name-about {
     color: var(--accent-color);
     font-family: var(--font-two)!important;
+    font-size: 3.5em;
 }
 
-h1, h2 {
+h1 {
+    font-size: 3em;
     color: var(--accent-color)!important;
     font-family: var(--font-one)!important;
 }
 
-p, h5, h4, h3 {
+h2 {
+    font-size: 2.5em;
+}
+
+p, h2 {
     color: var(--font-color)!important;
     font-family: var(--font-one)!important;
 }
@@ -94,17 +101,25 @@ p, h5, h4, h3 {
     height: 300px;
 }
 
-.portfolioLinks, .card-title {
+.portfolioLinks {
+    color: var(--font-color);
+}
+
+.card-title {
     color: var(--accent-color);
     font-family: var(--font-one);
 }
 
 .material-icons {
-    color: var(--accent-color);
+    color: var(--font-color);
+}
+
+.material-icons:hover {
+    color: var(--hover-color);
 }
 
 .ex, .portfolioLinks:hover {
-    color: var(--secondary-bg-color);
+    color: var(--hover-color);
 }
 
 .port-row {
@@ -176,12 +191,18 @@ p, h5, h4, h3 {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .slider-adjustment {
+        top: 56px;
+    }
+}
+
 @media only screen and (max-width: 480px) {
-    h1, h2 {
+    h1 {
        font-size: 2.5em;
     }
     
-    h5, h3, h4 {
+    h2 {
         font-size: 2em;
     }
 
