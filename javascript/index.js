@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var instance = M.Slider.init(elems, {
         //slider options
         indicators: false,
-        interval: 20000
+        interval: 10000
 
     });
 

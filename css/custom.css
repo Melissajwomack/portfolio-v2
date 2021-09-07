@@ -5,20 +5,28 @@ font-family: 'Josefin Sans', sans-serif;
 color: rgb(170, 130, 27);
 */
 
+:root{
+    --main-bg-color: black;
+    --secondary-bg-color: white;
+    --accent-color: rgb(170, 130, 27);
+    --font-one: 'Josefin Sans', sans-serif;
+    --font-two: 'Raleway', sans-serif;
+}
+
 body {
-    background-color: black;
+    background-color: var(--main-bg-color);
 }
 .port, .nav, .navlinks, .sidenav {
-    background-color: black;
+    background-color: var(--main-bg-color);
 }
 
 .nav, .navlinks {
-    color: rgb(170, 130, 27)!important;
-    font-family: 'Raleway', sans-serif;
+    color: var(--accent-color)!important;
+    font-family: var(--font-two);
 }
 
 .navlinks:hover {
-    background-color: #fff!important;
+    background-color: var(--secondary-bg-color)!important;
 }
 
 .contactme, .aboutme {
@@ -37,12 +45,12 @@ body {
 }
 
 .para, .slider-adjustment {
-    border-top: 1px solid rgb(170, 130, 27);
-    border-bottom: 1px solid rgb(170, 130, 27);
+    border-top: 1px solid var(--accent-color);
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .slider .indicators .indicator-item.active {
-    background-color: rgb(170, 130, 27);
+    background-color: var(--accent-color);
 }
 
 .slider .slides li .caption {
@@ -50,26 +58,26 @@ body {
 }
 
 .icons {
-    color: rgb(170, 130, 27);
+    color: var(--accent-color);
     margin: 0.25em;
 }
 
 .icons:hover {
-    color: #fff
+    color: var(--secondary-bg-color);
 }
 
 .name-about {
-    color: rgb(170, 130, 27);
-    font-family: 'Raleway', sans-serif!important;
+    color: var(--accent-color);
+    font-family: var(--font-two)!important;
 }
 
 h1, h2 {
-    color: rgb(170, 130, 27)!important;
-    font-family: 'Josefin Sans', sans-serif!important;
+    color: var(--accent-color)!important;
+    font-family: var(--font-one)!important;
 }
 
 p, h5, h4, h3 {
-    font-family: 'Josefin Sans', sans-serif!important;
+    font-family: var(--font-one)!important;
 }
 
 .parallax-container .section {
@@ -85,12 +93,12 @@ p, h5, h4, h3 {
 }
 
 .portfolioLinks, .card-title {
-    color: black;
-    font-family: 'Josefin Sans', sans-serif;
+    color: var(--main-bg-color);
+    font-family: var(--font-one);
 }
 
 .material-icons, .ex, .portfolioLinks:hover {
-    color: rgb(170, 130, 27);
+    color: var(--accent-color);
 }
 
 .port-row {
@@ -106,18 +114,18 @@ p, h5, h4, h3 {
 }
 
 .card-content {
-    border-top: 1px solid rgb(170, 130, 27);
+    border-top: 1px solid var(--accent-color);
     height: 50%;
 }
 
 .phone {
     text-decoration: none;
-    color: #fff!important;
+    color: var(--secondary-bg-color)!important;
 }
 
 .page-footer {
-    color: rgb(170, 130, 27);
-    background-color: black;
+    color: var(--accent-color);
+    background-color: var(--main-bg-color);
     padding-top: 0px;
     position: relative;
     bottom: 0;
@@ -126,8 +134,8 @@ p, h5, h4, h3 {
 }
 
 .footer-index {
-    color: rgb(170, 130, 27);
-    background-color: black;
+    color: var(--accent-color);
+    background-color: var(--main-bg-color);
     padding-top: 0px;
     position: absolute;
     bottom: 0;
@@ -136,8 +144,8 @@ p, h5, h4, h3 {
 }
 
 .footer-copyright {
-    color: rgb(170, 130, 27)!important;
-    background-color: black!important;
+    color: var(--accent-color)!important;
+    background-color: var(--main-bg-color)!important;
 }
 
 /* Media Queries */
