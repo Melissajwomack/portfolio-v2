@@ -4,7 +4,6 @@ M.AutoInit();
 //Wait for document to load
 document.addEventListener("DOMContentLoaded", function () {
     isredirect = window.location.search.substr(1);
-    console.log(isredirect);
 
     //Initialize slider on index page
     var elems = document.querySelectorAll(".slider");
@@ -79,15 +78,13 @@ document.addEventListener("DOMContentLoaded", function () {
     };
 
     if(isredirect){
-        var about = "about";
-        var contact = "contact";
         switch (isredirect) {
-            case about:
+            case "about":
                 goToAbout();
                 $(".sidenav").sidenav("close");
                 document.title = "Melissa Womack | About";
                 break;
-            case contact:
+            case "contact":
                 goToContact();
                 $(".sidenav").sidenav("close");
                 document.title = "Melissa Womack | Contact";
