@@ -111,7 +111,7 @@ p, h2 {
 }
 
 .material-icons {
-    color: var(--font-color);
+    color: var(--accent-color);
 }
 
 .material-icons:hover {
@@ -206,6 +206,10 @@ p, h2 {
         font-size: 2em;
     }
 
+    .name-about {
+        font-size: 2.5em;
+    }
+
     .mobile-bg {
         display: block;
     }
@@ -220,4 +224,22 @@ p, h2 {
     .icons {
         margin: 0.05em;
     }
+}
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 2em;
+     }
+     
+     h2 {
+         font-size: 1.5em;
+     }
+ 
+     .name-about {
+         font-size: 2em;
+     }
+     
+     #aboutMeText {
+         font-size: 1.1em!important;
+     }
 }
