@@ -7,7 +7,7 @@ color: rgb(170, 130, 27);
 
 :root{
     --main-bg-color: rgb(217, 220, 219);
-    --secondary-bg-color: rgb(168, 181, 161);
+    --secondary-bg-color: rgb(180, 187, 184);
     --font-color: rgb(130, 131, 131);
     --accent-color: rgb(170, 130, 27);
     --font-one: 'Josefin Sans', sans-serif;
@@ -95,12 +95,16 @@ p, h5, h4, h3 {
 }
 
 .portfolioLinks, .card-title {
-    color: var(--font-color);
+    color: var(--accent-color);
     font-family: var(--font-one);
 }
 
-.material-icons, .ex, .portfolioLinks:hover {
+.material-icons {
     color: var(--accent-color);
+}
+
+.ex, .portfolioLinks:hover {
+    color: var(--secondary-bg-color);
 }
 
 .port-row {
@@ -118,6 +122,10 @@ p, h5, h4, h3 {
 .card-content {
     border-top: 1px solid var(--accent-color);
     height: 50%;
+}
+
+.card-image+.card-content {
+    max-height: fit-content!important;
 }
 
 .phone {
@@ -190,34 +198,5 @@ p, h5, h4, h3 {
 @media only screen and (max-width: 400px) {
     .icons {
         margin: 0.05em;
-    }
-}
-
-@media only screen and (max-height: 700px) {
-    .aboutMeText {
-        font-size: 1rem!important;
-    }
-}
-
-@media only screen and (max-height: 545px) {
-    .aboutMeText {
-        font-size: 0.9rem!important;
-    }
-}
-
-@media only screen and (max-height: 320px) {
-    h1 {
-        margin: 0.5em 0 0 0;
-    }
-    h1, h2 {
-        font-size: 2em;
-     }
-     
-     h5, h3, h4, p {
-        font-size: 1em!important;
-     }
-
-     .icons {
-        margin: 0;
     }
 }
